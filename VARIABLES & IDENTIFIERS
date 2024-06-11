@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main () {
+int IDENTIFIER1 = 21;
+float IDENTIFIER2 = 21.333;
+char IDENTIFIER3 = 's';
+printf ("This is the number = %d\n", IDENTIFIER1);
+printf ("This is the decimal = %.3f\n", IDENTIFIER2);
+printf ("This is the letter = %c", IDENTIFIER3);
+return 0;
+}
