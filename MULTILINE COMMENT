@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main() {
+printf ("this an example of multiline comment"); /*this wont be shown, as this is a multiline comment, which will only be shown in the input code.
+this here is a multiline comment,in which u can store comments in multiple lines.*/
+return 0;
+}
