@@ -1,0 +1,12 @@
+#include <stdio.h>
+//This is an example for the mulplication in C language.
+int main() {
+int costofapen = 20;
+int numberofpens = 23;
+char mycurrency = '$';
+int totalcost = costofapen * numberofpens;
+printf ("The cost of a pen is: %d%c\n",costofapen,mycurrency);
+printf ("Total number of the pen: %d%c\n\n",numberofpens,mycurrency);
+printf ("Therefore, the total cost of all the pens are: %d%c",totalcost,mycurrency);
+return 0;
+}
