@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+float decimalnumber = 21.223;
+printf ("This is without the decimal precision: %f\n\n",decimalnumber);
+//BEFORE THIS WE TRIED THE ONE WITHOUT THE DECIMAL PRECISION AFTER THIS WE WILL TRY WITH THE DECIMAL PRECISION.
+float decimalnumber2 = 234.56;
+printf ("This is with the decimal precision: %.2f\n",decimalnumber2);
+return 0;
+}
