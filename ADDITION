@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+int number1 = 23;
+float number2 = 33.365481;
+float sum = number1 + number2;
+printf ("This is the first number = %d\n", number1);
+printf ("This is the second number = %.6f\n\n", number2);
+printf ("This is the sum of the two numbers = %.4f", sum);
+return 0;
+}
