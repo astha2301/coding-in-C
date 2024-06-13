@@ -1,0 +1,11 @@
+#include <stdio.h>
+/*Here what we are trying to do is to learn the comparison. I just took up an example about the numbers, just a small example to make it clear.
+Here it is showing 0 for the false value and 1 for the true value.*/
+int main () {
+int x = 3;
+int y = 7;
+printf ("This is the comparison = %d\n", x<y);
+printf ("This is another comparison = %d\n", x>y);
+printf ("This is the last comparison = %d",x==y);
+return 0;
+}
