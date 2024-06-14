@@ -1,0 +1,10 @@
+#include <stdio.h>
+//just a basic example of IF...ELSE.
+int main() {
+if (11<12) {
+printf ("This is the correct statement");
+} else {
+printf ("This is the incorrect statement");
+}
+return 0;
+}
