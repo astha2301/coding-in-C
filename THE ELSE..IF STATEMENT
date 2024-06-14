@@ -1,0 +1,12 @@
+#include <stdio.h>
+//The example for the else..if statement, which is used to specify a new statement if the condition 1 is wrong.
+int main() {
+if (3==4) {
+printf ("This is not the correct statement");
+} if (3>4) {
+printf ("This is again not the correct statement");
+} else {
+printf ("This is the only correct statement");
+}
+return 0;
+}
