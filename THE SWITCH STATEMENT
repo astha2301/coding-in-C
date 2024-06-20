@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main()
+{
+    
+    int day;
+   printf ("PLEASE TYPE ANY NUMBER HERE(BETWEN 1-7)AND WE WILL GET YOU THE DAY ACCORDING TO THAT:  ");
+   scanf("%d", &day);
+   
+   switch (day) {
+       
+       case 1:
+       printf ("\nITS MONDAY\n");
+       break;
+       
+       case 2:
+       printf ("ITS TUESDAY\n");
+       break;
+       
+       case 3:
+       printf ("ITS WEDNESDAY\n");
+       break;
+       
+       case 4:
+       printf ("ITS THURSDAY\n");
+       break;
+       
+       case 5:
+       printf ("ITS FRIDAY\n");
+       break;
+       
+       case 6:
+       printf ("ITS SATURDAY\n");
+       break;
+       
+       default:
+       printf("YOU HAVE ENTERED SOMETHING OUT OF THE CONTEXT THAT MEANS YOU HAVE ENTERED OUT THE THOSE NUMBERS THAT IS 1 TO 7");
+       break;
+       
+   };
+   return 0;
+}
